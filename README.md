@@ -1,5 +1,5 @@
-#Scripts
-#+ For Dmenu-Bookmarks
+# Scripts
+## For Dmenu-Bookmarks
 ```c
 git clone https://github.com/adith345/scripts
 cd scripts
@@ -10,7 +10,7 @@ cd scripts
 ```c
 /home/username/scripts/dmenu-book.sh
 ```
-#+ For Dmenu-File-Search
+## For Dmenu-File-Search
 ```c
   git clone https://github.com/adith345/scripts
   cd scripts
