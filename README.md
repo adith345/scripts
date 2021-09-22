@@ -8,7 +8,7 @@ cd scripts
 + If you want add keybindings then use this
 
 ```c
-/home/username/scripts/dmenu-book.sh
+$HOME/scripts/dmenu-book.sh
 ```
 ## For Dmenu-File-Search
 ```c
@@ -19,7 +19,7 @@ cd scripts
  + If you want add keybindings then use this
 
  ```c
- /home/username/scripts/dmenu-filesearch.sh
+ $HOME/scripts/dmenu-filesearch.sh
  ```
 
 

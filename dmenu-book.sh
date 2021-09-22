@@ -7,6 +7,7 @@ declare -a options=(
 "github_adith - https://www.github.com/adith345"
 "dt_gitlab - https://www.gitlab.com/dwt1"
 "vifm_docs - https://vifm.info/vimdoc.shtml"
+"duckduckgo - https://duckduckgo.com/"
 "quit"
 )
 choice=$(printf '%s\n' "${options[@]}" | dmenu -h 24 -l 20 -p 'Bookmarks')

@@ -7,6 +7,9 @@ declare -a options=(
 "vim - $HOME/.vimrc"
 "vifm - $HOME/.config/vifm/vifmrc"
 "zsh - $HOME/.zshrc"
+"bookmarks - $HOME/scripts/dmenu-book.sh"
+"filesearch - $HOME/scripts/dmenu-filesearch.sh"
+
 "quit"
 )
 choice=$(printf '%s\n' "${options[@]}" | dmenu -h 24 -l 20 -p 'Edit Config')
