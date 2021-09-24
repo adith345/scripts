@@ -6,7 +6,6 @@ declare -a options=(
 "gmail-dexthost650@gmail.com - gmailhost.com"
 "github_push_pass - gmailpush"
 "steam - steam.com"
-
 "quit"
 )
 choice=$(printf '%s\n' "${options[@]}" | dmenu -h 24 -l 20 -p 'Passmenu')
