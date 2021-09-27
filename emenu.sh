@@ -1,10 +1,8 @@
 #!/usr/bin/env bash
-TERMINAL='gnome-terminal -e '
-EDITOR='vim %F'
-EDITOR2='emacs'
+KAK='gnome-terminal -- kak '
 
 declare -a options=(
-"vim - $HOME/.vimrc"
+"vim - /home/adith_pc/.vimrc"
 "vifm - $HOME/.config/vifm/vifmrc"
 "zsh - $HOME/.zshrc"
 "webmenu - $HOME/scripts/webmenu.sh"
@@ -19,7 +17,7 @@ if [[ "$choice" == "quit" ]]; then
     echo "Terminated" && exit 1
 elif [ "$choice"  ]; then
      cfg=$(printf '%s\n' "${choice}" | awk '{printf $NF}')
-     $EDITOR2 $cfg
+     $KAK $cfg
 else
     echo "Terminated" && exit 1
 fi
